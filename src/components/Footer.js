@@ -2,7 +2,7 @@ import React from 'react'
 import {FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 const Footer = () => {
   return (
-    <foooter  className='z-10 flex w-full h-[40px] bg-black text-white justify-between items-center   '>
+    <foooter  className='z- flex w-full h-[40px] bg-black text-white justify-between items-center   '>
     <p  className='text-sm md:text-md text-gray-300'>Copyright &copy; 2021 Bashirat Are | Designed by BACFInc</p> 
 
         <div className='flex bg-black  h-[30px] w-[200px] justify-center items-center  '>
