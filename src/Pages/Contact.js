@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import logo from "../assets/images/logo.PNG";
+
 import bashy from "../assets/images/bashy.jpg";
 
 import {
@@ -8,7 +8,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
+
 import Menu from "../components/Menu";
 import { AppContext } from "../store/appReducers";
 

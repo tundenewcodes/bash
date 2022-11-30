@@ -13,7 +13,7 @@ const ContactForm = () => {
         <div className='w-full h-[calc(100%-80px)] flex   mt-8 flex-col md:flex-row justify-between items-center'>
             <div className='w-[100%]  md:w-[45%] h-1/2 md:h-full flex-col flex justify-start my-auto items-center '>
                
-               <div  className='flex-col max-w-[3/5] h-full justify-start mt-20 items-center h-full   '>
+               <div  className='flex-col max-w-[3/5] h-full justify-start mt-20 items-center    '>
                <p className='text-yellow-300 text-start font-bold text-xl md:text-4xl'>You can send me a message here</p>
 
 <p className='text-start  tracking-widest text-gray-300 text-md '>Nunc ultrices interdum rutrum. Etiam semper, neque vitae volutpat bibendum, tellus est vestibulum velit, in volutpat est nibh ac magna. Nunc lobortis ipsum et tellus bibendum, a bibendum lacus efficitur.Nunc ultrices interdum rutrum. Etiam semper, neque vitae volutpat bibendum, tellus est vestibulum velit, in volutpat est nibh ac magna. Nunc lobortis ipsum et tellus bibendum, a bibendum lacus efficitur.Nunc ultrices interdum rutrum. Etiam semper, neque vitae volutpat bibendum, tellus est vestibulum velit, in volutpat est nibh ac magna. Nunc lobortis ipsum et tellus bibendum, a bibendum lacus efficitur.</p>
