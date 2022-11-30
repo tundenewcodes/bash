@@ -8,11 +8,11 @@ const Footer = () => {
         <div className='flex bg-black  h-[30px] w-[200px] justify-center items-center  '>
 <div  className='bg-white h-[10px]  md:h-[20px]  w-[10px] md:w-[20px] cursor-pointer flex justify-center items-center ml-2  '>
     <FaTwitter  className='text-black  h-[15px] w-[15px]   ' /></div>
-<div  className='bg-white h-[20px] w-[20px] cursor-pointer flex justify-center items-center ml-2  '>
+<div  className='bg-white h-[10px]  md:h-[20px]  w-[10px] md:w-[20px] cursor-pointer flex justify-center items-center ml-2  '>
     <FaFacebookF className='text-black h-[15px] w-[15px]   '/></div>
-<div className='bg-white h-[20px] w-[20px] cursor-pointer flex justify-center items-center ml-2  '><FaLinkedinIn className='text-black h-[15px] w-[15px]   '/>
+<div className='bg-white h-[10px]  md:h-[20px]  w-[10px] md:w-[20px] cursor-pointer flex justify-center items-center ml-2  '><FaLinkedinIn className='text-black h-[15px] w-[15px]   '/>
 </div>
-<div  className='bg-white h-[20px] w-[20px] cursor-pointer flex justify-center items-center ml-2  '><FaInstagram className='text-black h-[15px] w-[15px]   '/></div>
+<div  className='bg-white h-[10px]  md:h-[20px]  w-[10px] md:w-[20px] cursor-pointer flex justify-center items-center ml-2  '><FaInstagram className='text-black h-[15px] w-[15px]   '/></div>
         </div>
     </foooter>
   )

@@ -15,7 +15,7 @@ import { AppContext } from "../store/appReducers";
 const Header = () => {
 const appCtx = useContext(AppContext)
   return (
-    <header className="z-10  relative  fixed top-0 flex w-full h-[40px]  mx-4 bg-black justify-between items-center ">
+    <header className="z-10  relative   top-0 flex w-screen h-[40px]  mx-4 bg-black justify-between items-center ">
       <div className="max-w-[30px] h-[30px] flex items-center justify-between border-2 border-yellow-300">
         <img className="object-cover w-full h-full" src={logo} alt="logo" />
       </div>

@@ -9,7 +9,7 @@ const Services = ({ image, text, description }) => {
         <div className="top-0 left-0 absolute w-full h--full  bg-gray-800"></div>
           <img src={image} alt={text} className='w-full h-full opacity-30 object-cover ' />
       
-          <p className="top-[210px] lg:top-48 md:top-[550px] text-white font-bold text-lg md:text-3xl  absolute left-0"  >{text}</p>
+          <p className="top-[180px] lg:top-48 md:top-[380px] text-white font-bold text-lg md:text-3xl  absolute left-0"  >{text}</p>
         </div>
         <div className="h-3/12 w-full mt-4 bg-gray-900 flex flex-col">
           <p  className='text-white  text-sm '> {description} </p>

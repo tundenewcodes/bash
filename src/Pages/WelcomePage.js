@@ -8,7 +8,7 @@ const WelcomePage = () => {
 
   const appCtx = useContext(AppContext)
   return (
-    <main className="w-full h-full relative " >
+    <main className="w-screen h-full relative " >
 {   appCtx.showModal  &&  <Menu/>}
 
     <div  className="w-full h-screen   bg-black flex flex-col lg:flex-row justify-between items-center mx-4 ">

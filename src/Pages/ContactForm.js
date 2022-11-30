@@ -7,7 +7,7 @@ import { AppContext } from '../store/appReducers'
 const ContactForm = () => {
     const appCtx = useContext(AppContext)
   return (
-    <div className='w-full h-full  relative mx-4 bg-black'>
+    <div className='w-screen h-full  relative mx-4 bg-black'>
         {   appCtx.showModal  &&  <Menu/>}
         <Headline  title='Alternatively' />
         <div className='w-full h-[calc(100%-80px)] flex   mt-8 flex-col md:flex-row justify-between items-center'>
@@ -20,17 +20,17 @@ const ContactForm = () => {
                </div>
                
             </div>
-            <div  className='w-[100%]  md:w-[45%] h-1/2 md:h-full flex justify-between items-center mx-4 '>
+            <div  className='w-[100%]  md:w-[45%] h-1/2 md:h-full flex justify-between items-center  '>
                 <form className='w-full flex-col mt-20 justify-start items-center h-full'>
                    <div className='w-full flex  h-[100px] items-center justify-between'>
                    <input type='text' placeholder='Name' className='w-[49%] h-8 p-2   outline-0 bg-gray-800 text-gray-300 '  />
                    <input type='text' placeholder='Email' className='w-[49%] h-8 p-2  outline-0 bg-gray-800 text-gray-300  '  />
                     </div>
                     <label className='text-gray-300 text-sm md:text-md mt-2'>Message Label</label>
-                <div className='w-full flex  mt-2  h-8 '>
-                    <p className='bg-gray-800  flex justify-center items-center text-gray-300 '>Business Consultation</p>
-                    <p  className='bg-gray-800  flex justify-center items-center text-gray-300  ml-4'>HR Technology </p>
-                    <p className='bg-gray-800  flex justify-center items-center text-gray-300  ml-4'>Era Tech</p>
+                <div className='w-full flex  justify-between  mt-2  h-8 '>
+                    <p className='bg-gray-800  text-sm md:text-md   flex justify-center items-center text-gray-300 '>Business Consultation</p>
+                    <p  className='bg-gray-800  text-sm md:text-md flex justify-center items-center text-gray-300  ml-4'>HR Technology </p>
+                    <p className='bg-gray-800  text-sm md:text-md flex justify-center items-center text-gray-300  ml-4'>Era Tech</p>
                 </div>
                 <textarea  className='w-full p-2 h-[250px]  outline-0 bg-gray-800 text-gray-300   mt-2' placeholder='Enter your text here' >
 
